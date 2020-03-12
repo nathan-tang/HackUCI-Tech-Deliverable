@@ -30,10 +30,12 @@ opportunity as it allowed me to grow and exit my comfort zone! Thank you!
 ### How it looks:
 ```
 Desktop View (Left to Right Gradient):
+\\ stars move from right to left.
 ```
 ![desktop-View](readme-pictures/desktop-view.jpg)
 ```
 Mobile View (Top to Bottom Gradient):
+\\ stars move from bottom to top.
 ```
 ![mobile-view](readme-pictures/mobile-view.jpg)
 
