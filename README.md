@@ -37,7 +37,7 @@ Mobile View (Top to Bottom Gradient):
 ```
 ![mobile-view](readme-pictures/mobile-view.jpg)
 
-### Working Input? You betcha!
+### Form Inputs:
 ```
 Trying to Submit with an empty form results in:
 ```
@@ -47,16 +47,26 @@ Submitting with only a name results in:
 ```
 ![name-only-form](readme-pictures/name-only-form.jpg)
 ```
-Email Verfication before submitting a GET request? Yes!
+Email Verfication built in:
 ```
 ![email-verfication](readme-pictures/email-verification.jpg)
 ```
-Form visibily successfuly? and cleared?
+Form is visibly successfuly and cleared.
 ```
 ![form-on-sucess](readme-pictures/form-on-success.jpg)
 ```
-Check out that sweet 200 Response!
+Getting a proper code 200 status:
 ```
 ![reasonable-get-request](readme-pictures/reasonable-get-request.jpg)
+
+## Voyager Expansion:
+```
+I named it Voyager Expansion because of the NASA 1977 Voyager program where two robotic
+probes were sent out to explore the furthest reaches of our solar system and beyond.
+I feel like that is the essense of hackthons - the ambition and the curiousity to 
+explore the limits of our own abilities and go further beyond.
+
+That, and I thought it would sound cool.
+```
 
 ### Made with React.js & Bootstrap 4
