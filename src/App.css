@@ -1,0 +1,159 @@
+html {
+  background: #090A0F;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(to right, #1B2735 30%, #090A0F 100%);
+}
+
+ul {
+  padding-left: 10px;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+label {
+  color: black;
+}
+
+.text-danger {
+  float: right;
+}
+
+#name-error {
+
+}
+
+#email-error {
+
+}
+
+#funFact-error {
+
+}
+
+#form-container {
+  max-width: 50%;
+  position: relative;
+  border-radius: 25px;
+  background-color: white;
+  padding: 20px;
+}
+
+#input-fun-fact-id {
+  min-height: 80px;
+  max-height: 180px;
+}
+
+#submit-button {
+  position: relative;
+}
+
+.Hack-logo {
+  height: 150px;
+  top: 0;
+  left: 0;
+  margin: 10px;
+  padding: 5px;
+}
+
+#petr-container {
+  position: relative;
+  margin-top: 50px;
+}
+
+#petr-sprite {
+  height: 250px;
+}
+
+#header-p {
+  font-family: "lato", sans-serif;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  #petr-sprite {
+    animation: App-logo-spin infinite 30s linear;
+  }
+}
+
+@media screen and (min-width: 1040px) {
+  .main-wrapper {
+    display: grid;
+    grid-template-columns: 120px 50% auto 120px;
+    color: #444;
+  }
+
+  #form-container {
+    max-width: 50%;
+    position: relative;
+    border-radius: 25px;
+    background-color: white;
+    padding: 20px;
+    grid-column: 1/3;
+    grid-row: 1;
+  }
+}
+
+/* MEDIA QUERIES - TABLET */
+@media screen and (max-width: 800px) {
+  body {
+    min-height: 100vh;
+    background: linear-gradient(#1B2735 30%, #090A0F 100%);
+  }
+
+  #form-container {
+    margin-top: 30px;
+    max-width: 90%;
+  }
+
+  .Hack-logo {
+    height: 100px;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    padding: 5px;
+  }
+
+  #petr-sprite {
+    height: 200px;
+  }
+
+}
+
+/* MEDIA QUERIES - MOBILE */
+@media screen and (max-width: 400px) {
+  body {
+    min-height: 150vh;
+    background: linear-gradient(#1B2735 30%, #090A0F 100%);
+    overflow: scroll;
+    }
+
+  .Hack-logo {
+    height: 100px;
+    top: 0;
+    margin: 10px;
+    padding: 5px;
+  }
+
+  #form-container {
+    margin-top: 30px;
+    max-width: 90%;
+  }
+
+  #petr-sprite {
+    height: 200px;
+  }
+}
