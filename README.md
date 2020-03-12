@@ -51,7 +51,7 @@ Email Verfication built in:
 ```
 ![email-verfication](readme-pictures/email-verification.jpg)
 ```
-Form is visibly successfuly and cleared.
+Form is visibly successfuly and cleared:
 ```
 ![form-on-sucess](readme-pictures/form-on-success.jpg)
 ```
