@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-//import { ToastContainer, toast } from 'react-toastify';
-//import 'react-toastify/dist/ReactToastify.min.css';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.min.css';
 import logo from './assets/hack-logo-transparent.png';
 import './App.css';
 import petr from './assets/astro_petr.png';
@@ -97,7 +97,7 @@ class App extends Component {
                     document.getElementById("input-email-id").className = "form-control is-valid";
                     document.getElementById("input-fun-fact-id").className = "form-control is-valid";
                     this.handleReset();
-                    alert("Sucessfully Submitted!")
+                    toast("Form Submitted Successfully!")
                 })
         }
     };
@@ -141,6 +141,7 @@ class App extends Component {
                             </div>
 
                             <button type="submit" className="btn btn-secondary" id="submit-button">Submit</button>
+                            <ToastContainer/>
                         </form>
                     </div>
 

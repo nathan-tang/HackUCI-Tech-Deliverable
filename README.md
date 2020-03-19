@@ -55,6 +55,10 @@ Form is visibly successfuly and cleared:
 ```
 ![form-on-sucess](readme-pictures/form-on-success.jpg)
 ```
+On success provides a toast:
+```
+![toastify-response](readme-pictures/toastify-response.jpg)
+```
 Getting a proper code 200 status:
 ```
 ![reasonable-get-request](readme-pictures/reasonable-get-request.jpg)
